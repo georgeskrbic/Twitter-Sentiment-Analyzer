@@ -2,10 +2,10 @@ import twitter
 import json
 from urllib import unquote
 
-CONSUMER_KEY = 'DmdS3014lEPytnjwHgwO6QE9U'
-CONSUMER_SECRET = 'p9Hug9CEoOtkvDDTY5U4JHKNfiYY4UBp2mERucvs4K1HTdAhVV'
-OAUTH_TOKEN = '4127231954-NY1kyz4XjqsMLBT8JJI4WXtLbx1YL4JlLkm1Ks0'
-OAUTH_TOKEN_SECRET = 'FKVJ7jwP7Doz3oYDHODkSWHu69noDD8J7WTz5ANnBnrOa'
+CONSUMER_KEY = 'xxxxxxxxxxxxxxx'
+CONSUMER_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+OAUTH_TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+OAUTH_TOKEN_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                            CONSUMER_KEY, CONSUMER_SECRET)
